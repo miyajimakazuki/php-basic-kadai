@@ -7,9 +7,18 @@
 </head>
 <body>
     <?php
-    $score = [80, 60, 55, 40, 100, 25, 80, 95, 30, 60];
-    echo ($score[0]+$score[1]+$score[2]+$score[3]+$score[4]+$score[5]
-    +$score[6]+$score[7]+$score[8]+$score[9])/10;
+    $score1 = 80;
+    $score2 = 60;
+    $score3 = 55;
+    $score4 = 40;
+    $score5 = 100;
+    $score6 = 25;
+    $score7 = 80;
+    $score8 = 95;
+    $score9 = 30;
+    $score10 = 60;
+
+    echo ($score1+$score2+$score3+$score4+$score5+$score6+$score7+$score8+$score9+$score10)/10;
     ?>
 </body>
 </html>
